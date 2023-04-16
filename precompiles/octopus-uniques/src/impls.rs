@@ -44,8 +44,17 @@ where
 		// parse rmrk base metadata to nep171 format
 		let metadata = Nep171TokenMetadata {
 			title: Some("A erc721 nft".to_string()),
+			description: None,
 			media: uri,
-			..Default::default()
+			media_hash: None,
+			copies: None,
+			issued_at: None,
+			expires_at: None,
+			starts_at: None,
+			updated_at: None,
+			extra: None,
+			reference: None,
+			reference_hash: None,
 		};
 		log::trace!(target: "Erc721 convertor", "After, the Nep171 media data is {:?} ", metadata.clone());
 

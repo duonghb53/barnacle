@@ -25,7 +25,7 @@ fp-evm = { git = "https://github.com/paritytech/frontier", branch = "polkadot-v0
 pallet-evm = { git = "https://github.com/paritytech/frontier", branch = "polkadot-v0.9.30", default-features = false }
 
 # Octopus
-pallet-octopus-bridge = { default-features = false, git = "https://github.com/octopus-network/octopus-pallets.git", branch = "main" }
+pallet-octopus-bridge = { default-features = false, git = "https://github.com/octopus-network/octopus-pallets.git", branch = "release-v0.9.30" }
 
 [dev-dependencies]
 derive_more = { version = "0.99" }
@@ -44,10 +44,10 @@ pallet-balances = { git = "https://github.com/paritytech/substrate.git", branch 
 pallet-session = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.30", features = ["historical"] }
 pallet-uniques = { git = "https://github.com/paritytech/substrate.git", branch = "polkadot-v0.9.30" }
 
-pallet-octopus-appchain = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "main" }
-pallet-octopus-lpos = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "main" }
-pallet-octopus-upward-messages = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "main" }
-pallet-octopus-support = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "main" }
+pallet-octopus-appchain = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "release-v0.9.30" }
+pallet-octopus-lpos = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "release-v0.9.30" }
+pallet-octopus-upward-messages = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "release-v0.9.30" }
+pallet-octopus-support = { git = "https://github.com/octopus-network/octopus-pallets.git", branch = "release-v0.9.30" }
 account = { path = "../../primitives/account/" }
 
 pallet-ethereum = { git = "https://github.com/paritytech/frontier.git", branch = "polkadot-v0.9.30" }
